@@ -1,0 +1,108 @@
+{
+  "obj": [
+    {
+      "name": "Nurbek",
+      "email": "nurbek@gmail.com",
+      "number": "903755441",
+      "doc": "Nevropotolog",
+      "reason": "Asabiylik",
+      "id": 4
+    },
+    {
+      "name": "Manzura",
+      "email": "manzurawebster94@gmail.com",
+      "number": "99459617",
+      "doc": "Nevropotolog",
+      "reason": "Asabiylik",
+      "id": 5
+    },
+    {
+      "name": "Malohat",
+      "email": "malohat@gmail.com",
+      "number": "90122412",
+      "date": "2021-04-20",
+      "doc": "Nevropotolog",
+      "exit": "2021-04-21",
+      "docname": "Mamajonova Soliha",
+      "section": "Nevrologiya",
+      "reas": "Asabiylik, bosh og'rigi, uyqusizlik",
+      "born": "2021-04-22",
+      "family": "Turmushga chiqmagan",
+      "place": "Toshkent",
+      "info": "O'rta maxsus",
+      "address": "Toshkent, Uchtepa tumani, Sakkokiy ko'chasi",
+      "busy": "Ishlamaydi",
+      "blood": "II guruh",
+      "id": 6
+    },
+    {
+      "name": "Xurshida",
+      "email": "xurshida@gmail",
+      "number": "901030893",
+      "date": "2021-04-23",
+      "doc": "Nevropotolog",
+      "reason": "Asabiylik",
+      "info": "Oliy",
+      "address": "Toshkent,Chilonzor",
+      "busy": "Ishlaydi",
+      "work": "Maktab",
+      "id": 9
+    },
+    {
+      "name": "Nargiza",
+      "email": "sdfewdefrr",
+      "number": "34434344",
+      "reas": "4fevdvdcv",
+      "busy": "Ishlaydi",
+      "blood": "II guruh",
+      "family": "ytttt",
+      "place": "ttttttt",
+      "docname": "Mamajonova Soliha",
+      "id": 17
+    }
+  ],
+  "doc": [
+    {
+      "name": "Dc.House",
+      "email": "dc.house@gmail.com",
+      "spec": "Universal",
+      "section": "2021-04-15",
+      "acceptance": "Dush, Chor, juma",
+      "specialized": "",
+      "id": 1
+    },
+    {
+      "name": "Soliha",
+      "email": "soliha1210@gmail",
+      "spec": "Xirurg",
+      "acceptance": "Dush,Chor,Juma",
+      "staj": "6 yil",
+      "docfamily": "Turmushga chiqmagan",
+      "doctel": "903717115",
+      "docplace": "Toshkent",
+      "docinfo": "Oliy",
+      "docaddress": "Toshkent, Uchtepa tumani",
+      "id": 3
+    },
+    {
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtfn9LvCECdrc4ZOb7Pq-zNGUmwnrV8AYDA&usqp=CAU",
+      "name": "Mamjonova Soliha",
+      "email": "soliha1210@gmail.com",
+      "spec": "Xirurg",
+      "section": "2021-04-14",
+      "acceptance": "Sesh,Pays,Shanba",
+      "specialized": "Xirurg",
+      "workdate": "2021-04-23",
+      "worksec": "Xirurgiya",
+      "worktime": "To'liq",
+      "staj": "4 yil",
+      "docborn": "2021-04-21",
+      "docfamily": "Turmushga chiqmagan",
+      "doctel": "903717115",
+      "docplace": "Toshkent",
+      "docinfo": "Oliy",
+      "docaddress": "Toshkent,Uchtepa tumani 11-1-5",
+      "id": 4
+    }
+  ]
+}
