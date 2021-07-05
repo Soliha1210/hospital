@@ -1,15 +1,15 @@
 <template>
     <div class="doctors">
         <div class="title">
-            Shifokorlar
+        	Doctors
         </div>
         <table>
             <tr>
-                <th>Ism-sharifi</th>
+                <th>Name Surname</th>
                 <th>Email</th>
-                <th>Mutaxassisligi</th>
-                <th>Bo’lim</th>
-                <th>Qabul kunlari</th>
+                <th>Specialty</th>
+                <th>Date of entry into force</th>
+                <th>Reception days</th>
                 <th></th>
                 <th></th>
             </tr>

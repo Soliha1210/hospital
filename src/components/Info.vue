@@ -7,7 +7,7 @@
 						<img src="../assets/img/med.png" alt="">
 					</div>
 					<div class="patient">
-						<div class="text2">Hodimlar</div>
+						<div class="text2">Workers</div>
 						<div class="number">
 							{{countDoc}}
 						</div>
@@ -21,7 +21,7 @@
 						<img src="../assets/img/patient.png" alt="">
 					</div>
 					<div class="patient">
-						<div class="text2">Bemorlar</div>
+						<div class="text2">Patients</div>
 						<div class="number">
 							{{count}}
 						</div>
@@ -35,7 +35,7 @@
 						<img src="../assets/img/room.png" alt="">
 					</div>
 					<div class="patient">
-						<div class="text2">Xonalar</div>
+						<div class="text2">Rooms</div>
 						<div class="number">
 							24
 						</div>
@@ -48,7 +48,7 @@
 						<img src="../assets/img/budjet.png" alt="">
 					</div>
 					<div class="patient">
-						<div class="text2">Byudjet</div>
+						<div class="text2">Budget</div>
 						<div class="number">
 							$ 12,174
 						</div>

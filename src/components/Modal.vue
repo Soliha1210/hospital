@@ -3,55 +3,57 @@
 		<div class="modal" v-show="modal" v-on:keypress.enter="add">
 			<div class="new">
 				<div class="title">
-					Yangi bemor ro’yhatdan o’tkazish
+		
+					Registrate new patient
 				</div>
 				<div class="input">
-					<input type="text" placeholder="Ism sharifi" v-model="obj.name">
+					<input type="text" placeholder="Name Surename" v-model="obj.name">
 					<input type="text" placeholder="email" v-model="obj.email">
-					<input type="number" placeholder="Telfon nomer" v-model="obj.number">
-					<input type="date" placeholder="Tashrif sanasi" v-model="obj.date">
-					<input type="text" placeholder="rasm url" v-model="obj.pic">
+					<input type="number" placeholder="Telephone number" v-model="obj.number">
+					<input type="date" placeholder="Date of visit" v-model="obj.date">
+					<input type="text" placeholder="Photo url" v-model="obj.pic">
 					<select class="sel" v-model="obj.doc">
-						<option value="">Qaysi doktorga</option>
-						<option value="Nevropotolog">Nevropotolog</option>
-						<option value="Lor">Lor</option>
-						<option value="Terapevt">Terapevt</option>
+						<option value="">The name of doctor</option>
+						<option value="Neurologist">Neurologist</option>
+						<option value="Lor"></option>
+						<option value="Therapeutis">Therapeutis</option>
 					</select>
 					<select class="sel" v-model="obj.reason">
 						<option value=""></option>
-						<option value="Asabiylik">Asabiylik</option>
-						<option value="Laringit">Laringit</option>
+						<option value="Asabiylik">Nervousness</option>
+						<option value="Laringit">Laryngitis</option>
 					</select>
-					<input type="date" placeholder="Chiqish sanasi" v-model="obj.exit">
+					<input type="date" placeholder="Date of discharge " v-model="obj.exit">
 					<select class="sel" v-model="obj.docname">
 						<option value="Lazizov Odilbek">Lazizov Odilbek</option>
 						<option value="Mamajonova Soliha">Mamajonova Soliha</option>
 					</select>
-					<input type="text" placeholder="Davolangan bo'lim" v-model="obj.section">
-					<input type="textarea" placeholder="Murojaat sababi" v-model="obj.reas">
-					<input type="date" placeholder="Tug'ilgan sanasi" v-model="obj.born">
-					<input type="text" placeholder="Oilaviy holat" v-model="obj.family">
-					<input type="number" placeholder="Telefon raqam" v-model="obj.tel">
-					<input type="text" placeholder="Tug'ilgan joyi" v-model="obj.place">
-					<input type="text" placeholder="Ma'lumoti" v-model="obj.info">
-					<input type="text" placeholder="Manzil" v-model="obj.address">
+					<input type="text" placeholder="Treatment section" v-model="obj.section">
+					<input type="textarea" placeholder="The reason of addressing" v-model="obj.reas">
+					<input type="date" placeholder="Date of birth" v-model="obj.born">
+					<input type="text" placeholder="Family status" v-model="obj.family">
+					<input type="number" placeholder="Telephon number" v-model="obj.tel">
+					<input type="text" placeholder="Place of birth" v-model="obj.place">
+					<input type="text" placeholder="Information" v-model="obj.info">
+					<input type="text" placeholder="Address" v-model="obj.address">
 					<select class="sel" v-model="obj.busy">
-						<option value="Ishlaydi">Ishlaydi</option>
-						<option value="Ishlamaydi">Ishlamaydi</option>
+						<option value="It works">It works</option>
+						<option value="It doesn't work">It doesn't work</option>
 					</select>
 					<input type="text" placeholder="Ish joyi" v-model="obj.work">
 					<select class="sel" v-model="obj.blood">
-						<option value="I guruh">I guruh</option>
-						<option value="II guruh">II guruh</option>
-						<option value="III guruh">III guruh</option>
-						<option value="IV guruh">IV guruh</option>
+						<option value="blood group">Blood group</option>
+						<option value="I guruh">I group</option>
+						<option value="II guruh">II group</option>
+						<option value="III guruh">III group</option>
+						<option value="IV guruh">IV group</option>
 					</select>
-					<input type="text" placeholder="Imtiyoz kategoriyasi" v-model="obj.privilege">
+					<input type="text" placeholder="Privilege category" v-model="obj.privilege">
 
 				</div>
 				<div class="btn">
-					<button class="cencel" @click="closeModal">Bekor qilish</button>
-					<button class="add" @click="add">Qo'shish</button>
+					<button class="cencel" @click="closeModal">Cencel</button>
+					<button class="add" @click="add">Add</button>
 				</div>
 			</div>
 		</div>

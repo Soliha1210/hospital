@@ -8,19 +8,19 @@
         <h3>{{doctor.name}}</h3>
         <table>
           <tr>
-            <td>Mutaxassisligi</td>
+            <td>Specialty</td>
             <th class="th">{{doctor.spec}}</th>
-            <td>Ishga kirgan sana</td>
+            <td>Date of commencement of work</td>
             <th class="th">{{doctor.workdate}}</th>
           </tr>
           <tr class="tr">
-            <td>Ishlayotgan bo'lim</td>
+            <td>Working department</td>
             <th class="th">{{doctor.worksec}}</th>
-            <td>Ish grafigi</td>
+            <td>Work schedule</td>
             <th class="th">{{doctor.worktime}}</th>
           </tr>
           <tr>
-            <td>Ish staji</td>
+            <td>Work experience</td>
             <th class="th">{{doctor.staj}}</th>
           </tr>
         </table>
@@ -28,26 +28,26 @@
     </div>
 
 
-    <h4>Shaxsiy ma'lumotlar</h4>
+    <h4>Personal information</h4>
     <table>
       <tr>
-        <td>Tug'igan sanasi</td>
+        <td>Date of birth</td>
         <th class="th">{{doctor.docborn}}</th>
-        <td>Oilaviy holat</td>
+        <td>Family status</td>
         <th class="th">{{doctor.docfamily}}</th>
-        <td>Telefon raqam</td>
+        <td>Telephon number</td>
         <th class="th">{{doctor.doctel}}</th>
       </tr>
       <tr>
-        <td>Tug'ilgan joyi</td>
+        <td>Place of birth</td>
         <th class="th">{{doctor.docplace}}</th>
-        <td>Ma'lumoti</td>
+        <td>Education</td>
         <th class="th">{{doctor.docinfo}}</th>
       </tr>
       <tr>
         <td>Oila a'zolaridan telfon raqami</td>
         <th class="th">{{doctor.telfam}}</th>
-        <td>Manzil</td>
+        <td>Address</td>
         <th class="th">{{doctor.docaddress}}</th>
       </tr>
     </table>

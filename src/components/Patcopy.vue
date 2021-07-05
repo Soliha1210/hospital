@@ -3,17 +3,17 @@
 	<Modal></Modal>
 		<div class="patients">
 		<div class="title">
-			Bemorlar
+			Patients
 		</div>
 		<div class="table">
 			<table>
 				<tr>
-					<th>Ism-sharifi</th>
+					<th>Name surname </th>
 					<th>Email</th>
-					<th>Sana</th>
-					<th>Qabul vaqti</th>
-					<th>Shifokor</th>
-					<th>Sabab</th>
+					<th>Telephon number</th>
+					<th>Doctors</th>
+					<th>Reason</th>
+					<th>Date</th>
 					<th></th>
 					<th></th>
 				</tr>

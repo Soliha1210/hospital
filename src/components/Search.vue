@@ -4,7 +4,7 @@
             <div class="image">
                 <img src="../assets/img/lupa.png" alt="">  
             </div>
-            <input type="text" placeholder="Qidiruv">
+            <input type="text" placeholder="Search">
         </div> 
         <div class="right">
             <div class="look">

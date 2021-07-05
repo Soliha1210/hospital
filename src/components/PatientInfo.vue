@@ -8,19 +8,19 @@
       <h3>{{patient.name}}</h3>
     <table>
       <tr>
-        <td>Tashrif sanasi</td>
+        <td>Date of visit</td>
         <th class="th">{{patient.date}}</th>
-        <td>Chiqish sanasi</td>
+        <td>Date of discharge</td>
         <th class="th">{{patient.exit}}</th>
       </tr>
       <tr class="tr">
-        <td>Davolangan bo'lim</td>
+        <td>Treatment section</td>
         <th class="th">{{patient.section}}</th>
-        <td>Mas'ul shifokor</td>
+        <td>The doctor in charge</td>
         <th class="th">{{patient.docname}}</th>
       </tr>
       <tr>
-        <td>Murojaat sababi</td>
+        <td>The reason of addressing</td>
         <th class="th">{{patient.reas}}</th>
       </tr>
     </table>
@@ -28,35 +28,35 @@
     </div>
     
     
-      <h4>Shaxsiy ma'lumotlar</h4>
+      <h4>Personal information</h4>
     <table>
       <tr>
-        <td>Tug'igan sanasi</td>
+        <td>Date of birth</td>
         <th class="th">{{patient.born}}</th>
-        <td>Oilaviy holat</td>
+        <td>Family status</td>
         <th class="th">{{patient.family}}</th>
-        <td>Telefon raqam</td>
+        <td>Telephon number</td>
         <th class="th">{{patient.tel}}</th>
       </tr>
       <tr>
-        <td>Tug'ilgan joyi</td>
+        <td>Place of birth</td>
         <th class="th">{{patient.place}}</th>
-        <td>Ma'lumoti</td>
+        <td>Information</td>
         <th class="th">{{patient.info}}</th>
       </tr>
       <tr>
-        <td>Manzil</td>
+        <td>Address</td>
         <th class="th">{{patient.address}}</th>
-        <td>Bandlik holati</td>
+        <td>Employment status</td>
         <th class="th">{{patient.busy}}</th>
-        <td>Ish joyi</td>
+        <td>Workplace</td>
         <th class="th">{{patient.work}}</th>
       </tr>
     </table> 
-    <h4>Tibbiy ma'lumotlar</h4>
+    <h4>Medical information</h4>
       <table>  
         <tr>
-          <td>Qon guruhi</td>
+          <td>Blood group</td>
           <th class="th">{{patient.blood}}</th>
         </tr>
       </table>

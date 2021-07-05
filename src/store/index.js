@@ -23,9 +23,7 @@ export default new Vuex.Store({
     },
     
     delPatient(context,payload){
-      axios.delete('http://localhost:3000/obj/'+payload.id).then(()=>{
-        context.commit('delPatientId',payload.index)
-      })
+      axios.delete('http://localhost:3000/obj/'+payload.id) 
     },
     
     editPatient(context,payload){

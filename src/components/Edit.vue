@@ -47,15 +47,16 @@ export default {
 			save(index){
 				let item={
 					index:index,
-					obj:obj[index]
+					obj:this.obj[index]
 				}
-					this.$store.dispatch('editPatient',item)
+				this.$store.dispatch('editPatient',item)
+                this.$store.commit('changeEditModal', false)
 			}
 		},
 		computed:{
-					EditModal(){
-							return this.$store.getters.getEditModal
-					}
+			EditModal(){
+					return this.$store.getters.getEditModal
+			}
 		}
 }
 </script>
